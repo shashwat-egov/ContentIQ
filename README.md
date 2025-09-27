@@ -2,7 +2,7 @@
 
 **AI-Powered Content Discovery for Technical Professionals**
 
-ContentIQ is an intelligent content discovery tool that helps software engineers, technical leads, and developers stay ahead of the curve by identifying trending topics in technology, AI, data engineering, and software development. Built with LangChain and powered by advanced AI reasoning, it provides actionable insights for building your professional brand on LinkedIn.
+ContentIQ is an intelligent content discovery tool that helps software engineers stay ahead of the curve by identifying trending topics in technology, AI, data engineering, and software development. Built with LangChain and powered by advanced AI reasoning, it provides actionable insights for building your professional brand on LinkedIn.
 
 ## Features
 
