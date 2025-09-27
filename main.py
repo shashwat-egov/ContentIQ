@@ -2,7 +2,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from langchain import hub
 from langchain.agents import AgentExecutor
 from langchain.agents.react.agent import create_react_agent
 from langchain_core.output_parsers import PydanticOutputParser
@@ -16,7 +15,6 @@ from schemas import AgentResponse
 
 tools = [TavilySearch()]
 llm = ChatOpenAI(model="gpt-4", temperature=0)
-react_prompt = hub.pull("hwchase17/react")
 output_parser = PydanticOutputParser(pydantic_object=AgentResponse)
 react_prompt_with_format_instructions = PromptTemplate(
     template=REACT_PROMPT_WITH_FORMAT_INSTRUCTIONS,
