@@ -25,7 +25,7 @@ ContentIQ is an intelligent content discovery tool that helps software engineers
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/shashwat-egov/ContentIQ.git)
    cd langchain-react-search-agent
    ```
 
